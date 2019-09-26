@@ -4,6 +4,7 @@
   "description": "React",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Anil Jeeyani <enil.jeeyani@gmail.com> (http://www.enil.biz)",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/anjee10/react/issues"
   },
-  "homepage": "https://github.com/anjee10/react#readme"
+  "homepage": "https://github.com/anjee10/react#readme",
+  "devDependencies": {
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
-class App extend React.Component {
+class App extends react.Component {
   render () {
     return (
       <div>
